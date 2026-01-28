@@ -1,0 +1,80 @@
+/*CSS - TELA KANBAN - TELA 03*/
+
+body {
+    background-color: rgb(240, 237, 237);
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+#btnRelatorio {
+    font-size: 20px;
+}
+
+/* TÍTULO 'QUADRO KANBAN' */
+.titulo {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #014d01;
+}
+
+/* ÁREA DO KANBAN */
+.kanban {
+    display: flex;
+    gap: 30px;
+}
+
+.coluna {
+    background-color: white;
+    width: 300px;
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* TÍTULO DA COLUNA */
+.coluna h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fazer {
+    background-color: #e2695cc7; 
+}
+
+.fazendo {
+    background-color: #c5cfcf; 
+}
+
+.feito {
+    background-color: #72db9ec0; 
+}
+
+.card {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: grab;
+    font-family: monospace;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card:active {
+    cursor: grabbing;
+}
+
+.dragging {
+    opacity: 0.5;
+}
+
+.lista {
+    min-height: 300px;
+    padding: 10px;
+}
