@@ -1,0 +1,43 @@
+/*CSS - TELA CADASTRO - TELA 01*/
+
+body { /*Alinhar tudo vertical e horizontalmente */
+
+    background-color: rgb(240, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 40px;
+    color: rgba(3, 71, 32, 0.76);
+    font-family: monospace;
+}
+
+h2 {
+
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.container {
+
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(172, 171, 171, 0.5); /* Cria aspecto de caixa flutuante */
+    width: 320px;
+    height: 300px;
+    margin: 30px;
+    padding: 10px 16px;
+    border-radius: 5%;
+}
+
+.container:hover {
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

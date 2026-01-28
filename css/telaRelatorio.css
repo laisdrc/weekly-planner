@@ -1,0 +1,75 @@
+/* CSS - TELA RELATÓRIO - TELA 04  */
+
+body {
+    background: #f2f2f2;
+    font-family: monospace;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 38px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+/* Painel que segura os cards */
+.painel {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Estilizar os cards */
+.card {
+    width: 190px;
+    padding: 28px;
+    border-radius: 18px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 8px 18px rgba(0,0,0,.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 44px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Definição de cor para cada card, dependendo da classificação */
+.total { background: #8daac7; }
+.feito { background: #72db9ec0; }
+.fazendo { background: #c5cfcf; }
+.fazer { background: #e2695cc7; }
+
+/* Estilizar a frase do percentual de 'Aproveitamento' */
+#aproveitamento {
+    margin-top: 60px;
+    font-size: 34px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* botão PDF */ 
+#baixarPDF {
+    margin-top: 40px;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #32485e;
+    color: white;
+}
+
+#baixarPDF:hover {
+    opacity: 0.85;
+}
