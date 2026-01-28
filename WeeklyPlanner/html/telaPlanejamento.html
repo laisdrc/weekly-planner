@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento</title>
+    <link rel = "stylesheet" href="../css/telaPlanejamento.css">
+
+</head>
+<body>
+
+    <div id="inicioProjeto"> <!-- Tela de abertura do Planejamento -->
+        
+        <p>INICIE SEU PROJETO SEMANAL</p>
+
+        <input type="text" id="tituloProjeto" placeholder="Digite um título ao projeto">
+        <button type="button" id="btnSalvar">Iniciar</button><br><br>
+
+    </div>
+
+    <div class="container"> <!-- Container que user insere as tarefas e suas classificações -->
+
+            <label id="tituloExibido"></label> <br>
+
+        <form>
+            
+            Tarefa: <input type="text" id="tarefa" placeholder="Insira a tarefa"> <br><br>
+
+            Prioridade: <input type="radio" id="prioridadeAlta" name="prioridade" value="Alta" checked>
+            <label for="prioridadeAlta">Alta</label>
+          
+            <input type="radio" id="prioridadeMedia" name="prioridade" value="Média">
+            <label for="prioridadeMedia">Média</label>
+          
+            <input type="radio" id="prioridadeBaixa" name="prioridade" value="Baixa">
+            <label for="prioridadeBaixa">Baixa</label> <br><br>
+          
+            Prazo: <input type="date" id="prazo" placeholder="Defina o prazo"><br><br><br>
+
+            <button type="button" id="btnRegistrar">Adicionar ao planner</button><br><br>
+            <button id="novoPlanner">Novo Planejamento</button><br><br>
+            <button type="button" id="btnKanban">Gerar quadro Kanban</button><br><br>
+
+            <div id="lista"></div> <!--LISTA QUE EXIBE AS TAREFAS ADICIONADAS-->
+
+        </form>
+    </div>
+
+</body>
+    <script src="../js/telaPlanejamento.js"></script>
+</html>
