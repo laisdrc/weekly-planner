@@ -37,5 +37,9 @@ Ou apenas abra o arquivo `telaCadastro.html` no navegador.
 /telaKanban
 /telaRelatorio
 
+# Documentação
+
+Backlog técnico do projeto:  
+docs/BacklogTécnico-WeeklyPlanner.pdf
 
 Desenvolvido por Laís Câmara
